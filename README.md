@@ -7,7 +7,12 @@
 * npm start
 
 ## The task:
-Edit the /src/App.js file to create a router (like the example one between lines 12 and 20), with this behaviour:
+* create a home, child, error and navigator stateless components
+* edit the /src/App.js file to create a router to include an exact route, a normal route and an error one
+
+
+## On success
+* run npm start and using your browser navigate to http://localhost:3000/
 * when you visit http://localhost:3000/ you will see the __"Home"__ component
 * when you visit http://localhost:3001/child you will see the __"Child"__ component
 * when you visit http://localhost:3000/blah you will see the __"Error"__ component
