@@ -12,11 +12,15 @@ function App() {
     <div className='app'>
       <BrowserRouter>
         <h2>React Router Practice</h2>
+        {/* un-routed component */}
         <Navigation />
         <Switch>
+          {/* statis routes */}
           <Route exact path='/' component={Home} />
           <Route path='/child' component={Child} />
+          {/* dynamic route */}
           <Route path="/grand-child/:meta" component={GrandChild} />
+          {/* error route */}
           <Route component={Error}/>
         </Switch>
       </BrowserRouter>
