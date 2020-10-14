@@ -17,4 +17,4 @@
 * when you visit http://localhost:3000/child you will see the __"Child"__ component
 * when you visit http://localhost:3000//grand-child/something you will see the __"GrandChild"__ component displaying a dynamic text ("something")
 * when you visit http://localhost:3000/blah you will see the __"Error"__ component
-* and the __"Navigation"__ component is visible in all 3 scenarios
+* and the __"Navigation"__ component is visible in all 3 scenarios, containing the links to all the routes above
