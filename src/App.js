@@ -15,11 +15,11 @@ function App() {
         {/* un-routed component */}
         <Navigation />
         <Switch>
-          {/* statis routes */}
+          {/* static routes */}
           <Route exact path='/' component={Home} />
           <Route path='/child' component={Child} />
           {/* dynamic route */}
-          <Route path="/grand-child/:meta" component={GrandChild} />
+          <Route path="/grand-child/:variable_name" component={GrandChild} />
           {/* error route */}
           <Route component={Error}/>
         </Switch>
